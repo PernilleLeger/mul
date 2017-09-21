@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: red;
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+#ole {
+	color: #7F1C9B;
+	margin-bottom: 50px;
+}
+.klovdyr {
+	color: #0CAC11;
+}
+.husdyr {
+	color: #C6BD00;
+}
+.highlight {
+	font-weight: 900;
+	background-color: yellow;
+}
+#kasse1 {
+	background-color: #eee;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #616161;
+	height: auto;
+	/* gør at kasse1 har samme højde som dens indhold */
+	clear: both;
+	overflow: auto;
+	padding: 20px;
+	margin-bottom: 17px;
+	width: 100%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#kasse2 {
+	background-color: #ccc;
+	border: 1px dashed red;
+	clear: both;
+	margin: 20px 71px 12px 41px; /* rækkefølge: top, right, bottom, left */
+}
+#left {
+	width: 300px;
+	float: left;
+}
+#right {
+	width: 300px;
+	float: right;
+}
+#kat2 {
+	position: absolute; /* kunne også være "relative" - så ville den blive placeret relativt i forhold til dens udgangspunkt */
+	top: 0px;
+	right: 0px;
+}
+
+
+
+
+
+
+
+
+

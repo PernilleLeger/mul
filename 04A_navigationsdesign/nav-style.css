@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#navigation {
+	margin: 0 0 50px 0;
+	padding: 0 0 22px 20px;
+	border-bottom: 1px solid #40918e;
+}
+#navigation li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.8em;
+}
+#navigation a {
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	margin: 0 10px 0 10px;
+	color: #40918e;
+}
+#navigation a:hover {
+	border-bottom: 4px solid #40918e;
+	padding-bottom: 2px;
+}
+
+/* tabs (faneblade) */
+#tabs {
+	margin: 0;
+	padding: 0 0 25px 20px;
+	border-bottom: 1px solid #999;
+}
+#tabs li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.8em;
+}
+#tabs a {
+	text-decoration: none;
+	float: left;
+	margin: 0 10px 0 10px;
+	color: #333;
+	border: 1px solid #999;
+	padding: 4px 20px;
+	background-color: #ddd;
+	border-radius: 6px 6px 0 0;
+}
+#tabs a:hover {
+	background-color: #eee;
+}
+#tabs a.selected {
+	background-color: white;
+	padding-bottom: 5px;
+	border-bottom: none;
+}
+
+
+
+
+

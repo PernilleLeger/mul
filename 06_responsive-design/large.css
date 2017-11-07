@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Styles til store skærme, fx. laptop, desktop og TV */
+
+aside {
+	display: block;
+	width: 19%;
+}
+article {
+	width: 49%;
+}
+.banner {
+	width: 29%;
+}
+.logo {
+	width: 19%;
+}
+nav {
+	width: 79%;
+}
+
+/* media query inde i dette style sheet (en slags "mini stylesheet" inde i et andet) */
+@media screen and (min-width: 1212px) {
+	.container {
+		max-width: 1212px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

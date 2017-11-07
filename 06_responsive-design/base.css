@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Base styles (de styles der skal vises uafhængigt af skærmstørrelse) */
+
+/* Browser reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin: 8px 2% 8px 2%;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.logo, nav, aside, article, .banner, footer {
+	background: #ddd;
+	outline: 1px solid #666;
+	width: 99%;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.logo {
+	height: 40px;
+	background: #ff6b6b;
+}
+nav {
+	height: 40px;
+	background: #377079;
+}
+aside, footer {
+	display: none;
+}
+article {
+	height: 600px;
+	background: #f7fff7;
+}
+.banner {
+	height: 60px;
+	background: #ffe66d;
+}
+
+
+
+
+
+
+

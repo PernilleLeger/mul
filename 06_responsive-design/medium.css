@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Styles til medium skærme, fx tablet */
+
+body {
+	margin: 8px 1%;
+}
+footer {
+	display: block;
+	height: 60px;
+	background: #94c0c7;
+}
+.logo {
+	width: 29%;
+}
+nav {
+	width: 69%;
+}
+article {
+	width: 69%;
+}
+.banner {
+	width: 29%;
+	height: 600px;
+}
